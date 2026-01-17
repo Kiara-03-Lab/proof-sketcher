@@ -156,6 +156,28 @@ We welcome contributions! Great first issues:
 
 This applies to proofs too. Proof Sketcher lets you write that first draft—the logical skeleton—without getting stuck on the details. Then you refine, just like editing prose.
 
+## Future Roadmap
+
+Proof Sketcher is evolving to become a **mathematician-first proof assistant** that bridges natural mathematical thinking with formal verification. Our roadmap focuses on:
+
+### Near-Term (2026)
+- 🔴 **Human-readable error messages** - No more type theory jargon
+- 🔴 **Natural language connectors** - Write `using`, `because`, `from` instead of just `by`
+- 🔴 **Browser playground** - Try Proof Sketcher with zero installation
+- 🟡 **Theorem search integration** - Find theorems by description, not name
+- 🟡 **LaTeX export** - Generate publication-ready proofs from sketches
+- 🟡 **Auto-discharge trivial goals** - Stop proving `n + 0 = n` manually
+
+### Long-Term Vision
+- **Blueprint integration** - Separate human-readable proofs from machine code
+- **Collaborative branching** - Try multiple proof approaches side-by-side
+- **AI-assisted sketching** - Suggest next milestones based on your goal
+- **Cross-prover export** - Generate Coq, Isabelle, or Metamath from sketches
+
+**Full details:** See [ROADMAP.md](ROADMAP.md) for the complete development plan, timelines, and design principles.
+
+**Get involved:** We're actively seeking feedback from mathematicians! Join us on [Lean Zulip #proof-sketcher](https://leanprover.zulipchat.com/) or open an issue with your frustrations and feature requests.
+
 ## License
 
 MIT
