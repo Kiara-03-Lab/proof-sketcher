@@ -1,0 +1,23 @@
+# .gitignore for Lean 4 projects
+
+# Lake build artifacts
+/build/
+/.lake/
+/lake-packages/
+
+# Lean cache
+*.olean
+*.trace
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*~
+*.swp
+*.swo

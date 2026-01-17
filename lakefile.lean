@@ -7,6 +7,12 @@ package «proof_sketcher» where
 lean_lib «ProofSketcher» where
   -- Library configuration
 
+lean_lib «Examples» where
+  -- Example proofs demonstrating Proof Sketcher usage
+
+lean_lib «Tests» where
+  -- Test suite
+
 @[default_target]
 lean_exe «proof_sketcher» where
   root := `Main
